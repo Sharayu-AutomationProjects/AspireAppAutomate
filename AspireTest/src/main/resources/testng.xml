@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Aspire Application Test Automation Test Suite">
+
+	<listeners>
+		<listener class-name="com.qa.ExtentReportListener.ExtentReportListener" />
+	</listeners>
+
+	<test name="Aspire App Test Cases">
+		<classes>
+			<class name="com.aspire.qa.testcases.LoginPageTest"></class>
+			<class name="com.aspire.qa.testcases.HomePageTest"></class>
+			<class name="com.aspire.qa.testcases.InventoryPageTest"></class>
+			<class name="com.aspire.qa.testcases.ProductsCreatePageTest"></class>
+			<class name="com.aspire.qa.testcases.UpdateQuantityPageTest"></class>
+			<class name="com.aspire.qa.testcases.ApplicationMenuPageTest"></class>
+			<class name="com.aspire.qa.testcases.ManufacturingFeaturePageTest"></class>
+			
+		</classes>
+	</test>
+</suite>
